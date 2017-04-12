@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ex0-YA-aWd">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--详情-->
+        <scene sceneID="BoG-en-PYQ">
+            <objects>
+                <viewController storyboardIdentifier="dynamic2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="F5h-Ds-uDG" customClass="CircleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rav-1M-Mms"/>
+                        <viewControllerLayoutGuide type="bottom" id="2gB-aV-rT2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hn7-dA-3rs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="w1S-6Q-eTO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="cJB-lo-rTA" customClass="CircleGroupCell">
+                                        <rect key="frame" x="0.0" y="86" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cJB-lo-rTA" id="dwQ-5N-c1a">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="F5h-Ds-uDG" id="bQF-le-uqD"/>
+                                    <outlet property="delegate" destination="F5h-Ds-uDG" id="bGP-Qa-bjc"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5H-SL-Qo8">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CYC-cX-kIx">
+                                        <rect key="frame" x="48" y="14" width="34" height="34"/>
+                                        <state key="normal" image="like.png">
+                                            <attributedString key="attributedTitle"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="likeButtonClik:" destination="F5h-Ds-uDG" eventType="touchUpInside" id="kfZ-Bf-hT1"/>
+                                            <action selector="likeButtonCliked:" destination="F5h-Ds-uDG" eventType="touchUpInside" id="a84-0h-zni"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xi4-xn-H3F">
+                                        <rect key="frame" x="90" y="20" width="79" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AU3-VX-YvO">
+                                        <rect key="frame" x="282" y="7" width="40" height="45"/>
+                                        <state key="normal" image="Aicomment.png">
+                                            <attributedString key="attributedTitle"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="replyCliked:" destination="F5h-Ds-uDG" eventType="touchUpInside" id="seh-uS-AVA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="H5H-SL-Qo8" secondAttribute="height" multiplier="15:2" id="QxL-Ro-PxT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H5H-SL-Qo8" firstAttribute="trailing" secondItem="w1S-6Q-eTO" secondAttribute="trailing" id="CAF-FC-H0J"/>
+                            <constraint firstAttribute="bottom" secondItem="w1S-6Q-eTO" secondAttribute="bottom" id="WKh-oA-L2p"/>
+                            <constraint firstItem="H5H-SL-Qo8" firstAttribute="bottom" secondItem="2gB-aV-rT2" secondAttribute="top" id="YzF-hK-nXA"/>
+                            <constraint firstAttribute="trailing" secondItem="w1S-6Q-eTO" secondAttribute="trailing" id="aqg-1o-f7h"/>
+                            <constraint firstItem="H5H-SL-Qo8" firstAttribute="leading" secondItem="w1S-6Q-eTO" secondAttribute="leading" id="mSj-Aa-vNp"/>
+                            <constraint firstItem="w1S-6Q-eTO" firstAttribute="leading" secondItem="hn7-dA-3rs" secondAttribute="leading" id="udo-5P-HgB"/>
+                            <constraint firstItem="w1S-6Q-eTO" firstAttribute="top" secondItem="hn7-dA-3rs" secondAttribute="top" id="xI4-T0-VAI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="详情" id="8HW-Lz-DXu">
+                        <barButtonItem key="leftBarButtonItem" image="返回" id="ILA-3S-i1m">
+                            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="back:" destination="F5h-Ds-uDG" id="lek-b3-YGR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="circleTableView" destination="w1S-6Q-eTO" id="kqM-aE-Mku"/>
+                        <outlet property="like_btn" destination="CYC-cX-kIx" id="MjJ-Nt-iNp"/>
+                        <outlet property="numbers" destination="Xi4-xn-H3F" id="hgv-yC-rFW"/>
+                        <outlet property="reply_btn" destination="AU3-VX-YvO" id="8FT-QS-nwW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17k-pI-kLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2555.5" y="-405.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IRE-5v-hfN">
+            <objects>
+                <navigationController id="ex0-YA-aWd" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="i28-pA-N3v">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="F5h-Ds-uDG" kind="relationship" relationship="rootViewController" id="Hv1-K6-Hgk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dhn-jl-Cnj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1991.5" y="-405.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Aicomment.png" width="709" height="709"/>
+        <image name="like.png" width="552" height="552"/>
+        <image name="返回" width="113" height="57"/>
+    </resources>
+</document>

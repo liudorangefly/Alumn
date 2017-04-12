@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   majorList.plist
+   RegisterDemoTwo
+
+   Created by 韩雪滢 on 9/7/16.
+   Copyright (c) 2016 韩雪滢. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        
+        <key>建筑学院(研)</key>   <array>
+            
+            
+            <string>美术学</string>
+            
+            <string>建筑学</string>
+            
+            <string>建筑历史与理论</string>
+            
+            <string>建筑设计及其理论</string>
+            
+            <string>城市规划与设计</string>
+            
+            <string>建筑技术科学</string>
+            
+            <string>景观建筑学</string>
+            
+            <string>建筑遗产保护与管理</string>
+            
+            <string>城乡规划学</string>
+            
+            <string>风景园林学</string>
+            
+            <string>建筑学硕士</string>
+            
+            <string>城市规划硕士</string>
+        </array>
+        
+        
+        <key>机械工程学院(研)</key>   <array>
+            
+            
+            <string>设计学</string>
+            
+            
+            <string>机械制造及其自动化</string>
+            
+            
+            <string>机械电子工程</string>
+            
+            
+            <string>机械设计及理论</string>
+            
+            
+            <string>车辆工程</string>
+            
+            
+            <string>制造业工业工程</string>
+            
+            
+            <string>工业设计</string>
+            
+            
+            <string>工业工程</string>
+            
+            
+            <string>机械工程硕士</string>
+            
+            
+            <string>工业设计工程硕士</string>
+        </array>
+        
+        <key>能源与环境学院(研)</key>   <array>
+            
+            
+            <string>生态学</string>
+            
+            
+            <string>动力工程及工程热物理</string>
+            
+            
+            <string>供热、供燃气、通风及空调工程</string>
+            
+            
+            <string>环境科学与工程</string>
+            
+            
+            <string>动力工程硕士</string>
+            
+            
+            <string>环境工程硕士</string>
+            
+        </array>
+        
+        <key>信息科学与工程学院(研)</key>    <array>
+            
+            
+            <string>电路与系统</string>
+            
+            
+            <string>电磁场与微波技术</string>
+            
+            
+            <string>信息与通信工程</string>
+            
+            
+            <string>信息安全</string>
+            
+            
+            <string>电子与通信工程硕士</string>
+        </array>
+        
+        
+        <key>土木工程学院(研)</key>   <array>
+            
+            <string>固体力学</string>
+            
+            
+            <string>工程力学</string>
+            
+            
+            <string>土木工程</string>
+            
+            
+            <string>岩土工程</string>
+            
+            
+            <string>结构工程</string>
+            
+            
+            <string>市政工程</string>
+            
+            
+            <string>防灾减灾工程及防护工程</string>
+            
+            
+            <string>桥梁与隧道工程</string>
+            
+            
+            <string>土木工程建造与管理</string>
+            
+            <string>建筑与土木工程硕士</string>
+            
+            
+            <string>管理科学与工程</string>
+            
+            
+            <string>工程管理硕士</string>
+        </array>
+        
+        <key>电子科学与工程学院(研)</key>   <array>
+            
+            
+            
+            <string>光学工程</string>
+            
+            
+            <string>物理电子学</string>
+            
+            
+            <string>电路与系统</string>
+            
+            
+            <string>微电子学与固体电子学</string>
+        </array>
+        
+        <key>数学系(研)</key>    <array>
+            
+            
+            <string>统计学</string>
+            
+            
+            <string>应用统计硕士</string>
+            
+            
+            <string>数学</string>
+        </array>
+        
+        <key>自动化学院(研)</key>    <array>
+            
+            
+            
+            <string>控制理论与控制工程</string>
+            
+            
+            <string>检测技术与自动化装置</string>
+            
+            
+            <string>模式识别与智能系统</string>
+            
+            
+            <string>控制工程硕士</string>
+        </array>
+        
+        <key>计算机科学与工程学院(研)</key>    <array>
+            
+            
+            
+            <string>软件工程</string>
+            
+            
+            <string>图像处理与科学可视化</string>
+            
+            
+            <string>计算机科学与技术</string>
+            
+            
+            <string>计算机系统结构</string>
+            
+            
+            <string>计算机软件与理论</string>
+            
+            
+            <string>计算机应用技术</string>
+            
+            
+            <string>计算机技术硕士</string>
+            
+        </array>
+        
+        <key>建筑学院</key>
+        <array>
+            
+            
+            <string>建筑学</string>
+            
+            
+            <string>城市规划</string>
+            
+            
+            <string>景观学</string>
+        </array>
+        
+        <key>物理系(研)</key>   <array>
+            
+            
+            
+            <string>课程与教学论</string>
+            
+            
+            <string>物理学</string>
+            
+            
+            <string>凝聚态物理</string>
+        </array>
+        
+        <key>生物科学与医学工程学院(研)</key>    <array>
+            
+            
+            
+            <string>生物物理学</string>
+            
+            
+            <string>生物医学工程</string>
+            
+            
+            <string>生物医学工程硕士</string>
+        </array>
+        
+        <key>材料科学与工程学院(研)</key>   <array>
+            
+            
+            <string>材料科学与工程</string>
+            
+            
+            <string>土木工程材料</string>
+            
+            
+            <string>材料工程硕士</string>
+        </array>
+        
+        <key>人文学院(研)</key>   <array>
+            
+            
+            <string>哲学</string>
+            
+            
+            <string>中国哲学</string>
+            
+            
+            <string>外国哲学</string>
+            
+            
+            <string>伦理学</string>
+            
+            
+            <string>科学技术哲学</string>
+            
+            
+            <string>社会学</string>
+            
+            
+            <string>应用心理学</string>
+            
+            
+            <string>中国古代文学</string>
+            
+            
+            <string>中国现当代文学</string>
+            
+            
+            <string>旅游管理</string>
+            
+            
+            <string>行政管理</string>
+            
+            
+            <string>公共管理硕士</string>
+            
+            
+            <string>旅游管理硕士</string>
+        </array>
+        
+        <key>经济管理学院(研)</key>   <array>
+            
+            
+            <string>国民经济学</string>
+            
+            
+            <string>区域经济学</string>
+            
+            
+            <string>金融学</string>
+            
+            
+            <string>产业经济学</string>
+            
+            
+            <string>国际贸易学</string>
+            
+            
+            <string>统计学</string>
+            
+            
+            <string>金融工程</string>
+            
+            
+            <string>金融硕士</string>
+            
+            
+            <string>国际商务硕士</string>
+            
+            
+            <string>资产评估硕士</string>
+            
+            
+            <string>系统工程</string>
+            
+            
+            <string>物流工程硕士</string>
+            
+            
+            <string>管理科学与工程</string>
+            
+            
+            <string>会计学</string>
+            
+            
+            <string>企业管理</string>
+            
+            
+            <string>技术经济及管理</string>
+            
+            
+            <string>工商管理硕士</string>
+            
+            
+            <string>会计硕士</string>
+        </array>
+        
+        <key>电气工程学院(研)</key>   <array>
+            
+            
+            
+            <string>电气工程</string>
+            
+            
+            <string>电气工程硕士</string>
+        </array>
+        
+        <key>外国语学院(研)</key>   <array>
+            
+            
+            
+            <string>英语语言文学</string>
+            
+            
+            <string>日语语言文学</string>
+            
+            
+            <string>外国语言学及应用语言学</string>
+            
+            
+            <string>英语笔译硕士</string>
+        </array>
+        
+        <key>体育系(研)</key>   <array>
+            
+            
+            <string>体育学</string>
+        </array>
+        
+        <key>化学化工学院(研)</key> <array>
+            
+            
+            <string>化学</string>
+            
+            
+            <string>生物材料与组织工程</string>
+            
+            
+            <string>材料物理与化学</string>
+            
+            
+            <string>化学工程与技术</string>
+            
+            
+            <string>应用化学</string>
+            
+            
+            <string>化学工程硕士</string>
+            
+            
+            <string>制药工程</string>
+        </array>
+        
+        <key>机械工程学院</key>     <array>
+            
+            
+            <string>机械工程及自动化</string>
+            
+            
+            <string>工业工程</string>
+        </array>
+        
+        <key>交通学院(研)</key>    <array>
+            
+            <string>岩土工程</string>
+            <string>桥梁与隧道工程</string>
+            <string>港口、海岸及近海工程</string>
+            <string>大地测量学与测量工程</string>
+            <string>地图制图学与地理信息工程</string>
+            <string>交通运输工程</string>
+            <string>道路与铁道工程</string>
+            <string>交通信息工程及控制</string>
+            <string>交通运输规划与管理</string>
+            <string>载运工具运用工程</string>
+            <string>交通地下工程</string>
+            <string>水利工程硕士</string>
+            <string>测绘工程硕士</string>
+            <string>交通运输工程硕士</string>
+        </array>
+        
+        <key>仪器科学与工程学院(研)</key>   <array>
+            
+            <string>仪器科学与技术</string>
+            <string>导航、制导与控制</string>
+            <string>仪器仪表工程硕士</string>
+        </array>
+        
+        <key>艺术学院(研)</key>   <array>
+            
+            <string>艺术学</string>
+            <string>美术学</string>
+            <string>设计学</string>
+            <string>美术硕士</string>
+            <string>艺术设计硕士</string>
+            <string>艺术学理论</string>
+        </array>
+        
+        <key>法学院(研)</key>   <array>
+            
+            <string>法学</string>
+            <string>民商法学</string>
+            <string>马克思主义基本原理</string>
+            <string>思想政治教育</string>
+            <string>法律硕士(非法学)</string>
+        </array>
+        
+        <key>能源与环境学院</key>   <array>
+            
+            <string>热能与动力工程</string>
+            <string>核工程与核技术</string>
+            <string>建筑环境与设备工程</string>
+            <string>环境工程</string>
+        </array>
+        
+        
+        <key>信息科学与工程学院</key>   <array>
+            
+            <string>信息工程</string>
+        </array>
+        
+        
+        <key>公共卫生学院(研)</key>   <array>
+            
+            <string>流行病与卫生统计学</string>
+            <string>劳动卫生与环境卫生学</string>
+            <string>营养与食品卫生学</string>
+            <string>卫生毒理学</string>
+            <string>公共卫生硕士</string>
+            <string>社会保障</string>
+        </array>
+        
+        
+        <key>医学院(研)</key>   <array>
+            
+            <string>人体解剖与组织胚胎学</string>
+            <string>免疫学</string>
+            <string>病原生物学</string>
+            <string>病理学与病理生理学</string>
+            <string>临床医学</string>
+            <string>内科学</string>
+            <string>儿科学</string>
+            <string>神经病学</string>
+            <string>精神病与精神卫生学</string>
+            <string>影像医学与核医学</string>
+            <string>临床检验诊断学</string>
+            <string>护理学</string>
+            <string>外科学</string>
+            <string>妇产科学</string>
+            <string>眼科学</string>
+            <string>耳鼻咽喉科学</string>
+            <string>肿瘤学</string>
+            <string>麻醉学</string>
+            <string>急诊医学</string>
+            <string>中医内科学</string>
+            <string>药理学</string>
+            <string>内科学硕士</string>
+            <string>神经病学硕士</string>
+            <string>影像医学与核医学硕士</string>
+            <string>临床检验诊断学硕士</string>
+            <string>外科学硕士</string>
+            <string>肿瘤学硕士</string>
+            <string>急诊医学硕士</string>
+            <string>全科医学硕士</string>
+            <string>内科学博士</string>
+        </array>
+        
+        
+        <key>土木工程学院</key>
+        <array>
+            <string>土木工程</string>
+            <string>给水排水工程</string>
+            <string>工程力学</string>
+            <string>工程管理</string>
+        </array>
+        
+        
+        <key>电子科学与工程学院</key>   <array>
+            
+            <string>新能源材料与器件</string>
+            <string>物联网工程</string>
+            <string>电子科学与技术</string>
+        </array>
+        
+        
+        <key>数学系</key>   <array>
+            
+            <string>数学与应用数学</string>
+            <string>信息与计算科学</string>
+            <string>统计学</string>
+        </array>
+        
+        
+        <key>软件学院(研)</key>   <array>
+            
+            <string>软件工程硕士</string>
+        </array>
+        
+        
+        <key>自动化学院</key>   <array>
+            
+            <string>自动化</string>
+        </array>
+        
+        
+        <key>计算机科学与工程学院</key>   <array>
+            
+            <string>计算机科学与技术</string>
+        </array>
+        
+        
+        <key>物理系</key>   <array>
+            
+            <string>物理学</string>
+            <string>应用物理学</string>
+            <string>光信息科学与技术</string>
+        </array>
+        
+        
+        <key>生物科学与医学工程学院</key>   <array>
+            
+            <string>生物信息学</string>
+            <string>生物医学工程</string>
+        </array> 
+        
+        
+        <key>材料科学与工程学院</key>   <array>
+            
+            <string>材料科学与工程</string> 
+        </array>  
+        
+        
+        <key>人文学院</key>   <array>
+            
+            <string>哲学</string>  
+            <string>社会学</string>  
+            <string>政治学与行政学</string>  
+            <string>汉语言文学</string>  
+            <string>旅游管理</string> 
+        </array>
+        
+        
+        <key>经济管理学院</key>   <array>
+            
+            <string>经济学</string>  
+            <string>国际经济与贸易</string>  
+            <string>金融学</string>  
+            <string>金融工程</string>  
+            <string>信息管理与信息系统</string>  
+            <string>工商管理</string>  
+            <string>会计学</string>  
+            <string>电子商务</string>  
+            <string>物流管理</string> 
+        </array>  
+        
+        
+        <key>电气工程学院</key>   <array>
+            
+            <string>电气工程及其自动化</string> 
+        </array>  
+        
+        
+        <key>外国语学院</key>   <array>
+            
+            <string>英语</string>  
+            <string>日语</string> 
+        </array>  
+        
+        
+        <key>化学化工学院</key>   <array>
+            
+            <string>化学</string>  
+            <string>化学工程与工艺</string>  
+            <string>制药工程</string> 
+        </array> 
+        
+        
+        <key>交通学院</key>   <array>
+            
+            <string>地理信息系统</string>  
+            <string>城市地下空间工程</string>  
+            <string>道路桥梁与渡河工程</string>  
+            <string>港口航道与海岸工程</string>  
+            <string>测绘工程</string>  
+            <string>交通运输</string>  
+            <string>交通工程</string> 
+        </array>  
+        
+        
+        <key>仪器科学与工程学院</key>   <array>
+            
+            <string>测控技术与仪器</string> 
+        </array> 
+        
+        
+        <key>艺术学院</key>   <array>
+            
+            <string>美术学</string>  
+            <string>工业艺术设计</string>  
+            <string>动画</string> 
+        </array>  
+        
+        
+        <key>法学院</key>   <array>
+            
+            <string>法学</string> 
+        </array> 
+        
+        
+        <key>公共卫生学院</key>   <array>
+            
+            <string>预防医学</string>  
+            <string>劳动与社会保障</string> 
+        </array>  
+        
+        
+        <key>医学院</key>   <array>
+            
+            <string>生物工程</string>  
+            <string>临床医学</string>  
+            <string>医学影像学</string>  
+            <string>医学检验</string>  
+            <string>护理学</string> 
+        </array>  
+        
+        
+        <key>吴健雄学院</key>   <array>
+            
+            <string>测控技术与仪器</string>  
+            <string>热能与动力工程</string>  
+            <string>电气工程及其自动化</string>  
+            <string>自动化</string>  
+            <string>电子科学与技术</string>  
+            <string>信息工程</string>  
+            <string>土木工程</string>  
+            <string>道路桥梁与渡河工程</string>  
+            <string>交通工程</string> 
+        </array> 
+        
+        
+        <key>软件学院</key>   <array>
+            
+            <string>软件工程</string> 
+        </array>  
+        
+        
+        <key>学习科学中心</key>   <array>
+            
+            <string>科学教育</string> 
+        </array> 
+        
+        
+        <key>高等教育研究所(研)</key>   <array>
+            
+            <string>高等教育学</string> 
+        </array> 
+        
+        
+        <key>集成电路学院(研)</key>   <array>
+            
+            <string>集成电路设计</string>  
+            <string>集成电路工程硕士</string> 
+        </array> 
+        
+        
+        <key>继续教育学院(研)</key>   <array>
+            
+            <string>职业技术教育学</string>  
+            <string>教育技术学</string> 
+        </array> 
+        
+        
+        <key>建筑研究所(研)</key>   <array>
+            
+            <string>建筑学</string> 
+        </array>  
+        
+        
+        <key>马克思主义学院</key>   <array>
+            
+            <string>政治学理论</string>  
+            <string>马克思主义理论</string>  
+            <string>马克思主义基本原理</string>  
+            <string>思想政治教育</string> 
+        </array>  
+        
+        
+        <key>生命科学研究院(研)</key>   <array>
+            
+            <string>生物学</string>  
+            <string>生理学</string>  
+            <string>神经生物学</string>  
+            <string>遗传学</string>  
+            <string>发育生物学</string>  
+            <string>生物化学与分子生物学</string> 
+        </array>  
+        
+        
+        <key>情报科学技术研究所(研)</key>   <array>
+            
+            <string>图书情报与档案管理</string> 
+        </array>  
+        
+        
+        <key>无锡分校</key>   <array>
+            
+            <string>电子科学与技术</string>  
+            <string>信息工程</string> 
+        </array>  
+        
+        
+        <key>学习科学中心(研)</key>   <array>
+            
+            <string>教育技术学</string>  
+            <string>应用心理学</string>  
+            <string>科学与技术教育硕士</string>  
+            <string>分析化学</string>  
+            <string>学习科学</string>  
+            <string>神经信息工程</string> 
+        </array> 
+    </dict>
+    
+</plist>
